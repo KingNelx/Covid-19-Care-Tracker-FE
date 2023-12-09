@@ -1,7 +1,7 @@
 import covid from '../Images/covid-logo.png'
 import Start from './Pages/Start';
-
-const AdminHome = () => {
+import Lottie from 'lottie-react';
+const Home = () => {
 
     return (
         <div>
@@ -22,4 +22,4 @@ const AdminHome = () => {
     );
 }
 
-export default AdminHome;
+export default Home;

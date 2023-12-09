@@ -1,10 +1,17 @@
 import './App.css'
-import AdminHome from './Components/AdminHome';
+import Home from './Components/Home';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
     <div>
-      <AdminHome />
+      <Home />
+
+      <Router>
+        <Routes>
+          <Route  />
+        </Routes>
+      </Router>
     </div>
   );
 }
