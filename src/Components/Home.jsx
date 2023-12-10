@@ -5,8 +5,8 @@ const Home = () => {
 
     return (
         <div className="flex flex-col items-center justify-center h-screen">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-center">
-                <div className="md:self-center">
+            <div className="grid grid-cols-1 gap-4 text-center">
+                <div className="tablet:self-center">
                     <Lottie
                         animationData={shield}
                         height={300}
@@ -14,8 +14,8 @@ const Home = () => {
                         className="mx-auto"
                     />
                 </div>
-                <div className="md:flex md:flex-col md:justify-center">
-                    <div className="font-bold text-3xl md:text-4xl mb-4">
+                <div className="tablet:flex tablet:flex-col tablet:justify-center">
+                    <div className="font-bold text-3xl tablet:text-4xl mb-4">
                         Welcome to Covid 19 Care Tracker!
                     </div>
                 </div>
