@@ -11,7 +11,7 @@ const AdminHome = () => {
             />
             <section>
                 <Link to="/adminSignIn">
-                    <p className="italic"> Already have an account? Log in here. </p>
+                    <p className="italic"  onClick={Loading}> Already have an account? Log in here. </p>
                 </Link>
                 <Link to="/adminSignUp">
                     <p className="italic" onClick={Loading}>Don't have an account? Sign up now.</p>
